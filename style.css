@@ -1,38 +1,95 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f4f6f9;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0B0B0B;
+    color: white;
 }
 
 nav {
-    background-color: #0f1c2e;
-    color: white;
-    padding: 15px 30px;
+    background-color: #000000;
+    padding: 15px 40px;
+}
+
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.logo {
+    height: 50px;
+}
+
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 nav a {
-    color: white;
     text-decoration: none;
+    color: #D4AF37;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #F5D76E;
 }
 
 .hero {
-    padding: 80px;
     text-align: center;
-    background-color: #1f3a5f;
-    color: white;
+    padding: 120px 20px;
+    background: linear-gradient(to bottom, #000000, #1A1A1A);
 }
 
-section {
-    padding: 40px 60px;
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+    color: #cccccc;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 30px;
+    background-color: #D4AF37;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #F5D76E;
+}
+
+.metrics {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 80px 20px;
+    background-color: #111111;
+}
+
+.metric h2 {
+    font-size: 40px;
+    color: #D4AF37;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #000000;
+    font-size: 14px;
+    color: #777;
 }
 
